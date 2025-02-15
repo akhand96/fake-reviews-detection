@@ -2,7 +2,11 @@
   
 # Fake Reviews Detection
 
+This repository is part of Post Graduation Research, which leverages machine learning algorithms and natural language processing techniques to detect fake reviews, ensuring authenticity in user-generated content.
+
 This repository explores and compares various machine learning techniques for detecting fake reviews. It conducts a comparative study of four well-known machine learning models: Naive Bayes (NB), Support Vector Machine (SVM), Long Short-term Memory (LSTM), and Multi-layer Perceptron (MLP) using the Fake Reviews Dataset from Salminen.
+
+- **Note:** Trained and Tested on TensorFlow version: 2.12.0 and Keras version: 2.12.0
 
 
 ## Full Research References
@@ -28,7 +32,7 @@ This repository explores and compares various machine learning techniques for de
 ## Data Loading
 - **Code:** `pd.read_csv('reviews-dataset.csv')`
 - **Purpose:** Loads the dataset into a DataFrame for analysis.
-- **Dataset Link:** https://osf.io/tyue9/
+- **Dataset Link:** https://osf.io/tyue9
 
 ---
 
